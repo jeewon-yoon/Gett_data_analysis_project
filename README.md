@@ -1,19 +1,121 @@
-### <Yelp 리뷰 텍스트 분석> 
+### <Gett 데이터분석> 
 
-**프로젝트 소개**   
-Yelp는 전 세계적으로 사용되는 종합 리뷰 플랫폼이다. 솔직한 리뷰가 많이 올라오기 때문에 고객들의 니즈를 명확하게 파악할 수 있고 데이터 분석을 통해 고객 행동과 관련된 인사이트를 발굴할 수 있다.   
-<br>
+# Project Background
+Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
 
-**데이터셋**  
-Yelp에서 무료로 제공하는 오픈 데이터셋으로 총 6개의 json 파일 (https://www.yelp.com/dataset/)  
-<br>
+Insights and recommendations are provided on the following key areas:
 
-**분석 방법론**  
-Rstudio(tidyverse, brms)를 이용하여 참가자들이 좋은 카드를 선택한 비율을 계산(1블록당 25회의 시행), 통제조건과 실험조건에서 좋은 카드 선택 비율을 비교. 
-각 카드마다 통제조건과 실험조건에서 좋은카드를 선택한 비율을 비교.
-혼합효과 로지스틱 회귀를 이용하여 주효과인 실험조건과 블록 각각이 좋은 카드 선택 비율에 유의미한 영향을 미치는지 알아봄.     
-<br>
+- **Category 1:** 
+- **Category 2:** 
+- **Category 3:** 
+- **Category 4:** 
 
-**연구결과**  
-마지막 실험3을 통해 마우스클릭(또는 버튼누르기)이라는 조작과 함께 점수를 분할했을 때 수행 개선 효과가 나타난다는 것을 알 수 있었다. 
-즉, 점수분할과 마우스클릭 조작은 각 카드가 제시하는 보상/손실 점수의 빈도에 더 민감한 참가자들의 주의를 점수의 크기(규모)에 기울이게 하여 좋은 카드를 더 많이 선택하게 만든다
+The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+
+Targed SQL queries regarding various business questions can be found here [link].
+
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+
+
+
+# Data Structure & Initial Checks
+
+The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+- **Table 2:**
+- **Table 3:**
+- **Table 4:**
+- **Table 5:**
+
+[Entity Relationship Diagram here]
+
+
+
+# Executive Summary
+
+### Overview of Findings
+
+Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+
+[Visualization, including a graph of overall trends or snapshot of a dashboard]
+
+
+
+# Insights Deep Dive
+### Category 1:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 1]
+
+
+### Category 2:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 2]
+
+
+### Category 3:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 3]
+
+
+### Category 4:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 4]
+
+
+
+# Recommendations:
+
+Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+
+
+# Assumptions and Caveats:
+
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+
+* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+  
+* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+  
+* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)

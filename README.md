@@ -1,7 +1,8 @@
 ### <Gett 데이터분석> 
 
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Gett(이전 명칭: GetTaxi)는 기업 지상 교통 관리(GTM)에 초점을 맞춘 이스라엘 개발 기술 플랫폼입니다. 고객이 택시를 주문하고 운전자가 그 주문을 수락할 수 있는 애플리케이션을 보유하고 있습니다. 현재 고객이 애플리케이션에서 '주문' 버튼을 클릭하면, 매칭 시스템이 가장 적합한 운전자를 찾아 주문을 제안합니다. 이번 과제에서는 성공적으로 완료되지 않은 주문, 즉 고객이 차량을 이용하지 못한 주문에 대한 일부 매칭 지표를 조사하고자 합니다.
+(Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.)
 
 Insights and recommendations are provided on the following key areas:
 

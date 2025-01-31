@@ -1,6 +1,6 @@
-# <Gett 데이터분석> 
+# Gett 데이터분석
 
-# Project Background
+## Project Background
 Gett(이전 명칭: GetTaxi)는 우버와 같은 이스라엘의 차량 공유 플랫폼으로 고객이 택시를 주문하고 운전자가 그 주문을 수락할 수 있는 애플리케이션이다 (고객이 애플리케이션에서 '주문' 버튼을 클릭하면, 매칭 시스템이 가장 적합한 운전자를 찾아 주문을 제안하는 방식). 
 이 프로젝트에서는 성공적으로 완료되지 않은 주문, 즉 고객이 차량을 이용하지 못한 주문에 대한 일부 매칭 지표를 조사하여 매칭성공률이 개선되기 위한 방안에 대해 알아보고자 한다. 
 
@@ -16,7 +16,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 
 
-# 데이터 구조 
+## 데이터 구조 
 
 The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
 - **Table 2:**
